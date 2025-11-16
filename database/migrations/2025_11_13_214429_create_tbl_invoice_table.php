@@ -18,7 +18,7 @@ class CreateTblInvoiceTable extends Migration
             $table->integer('bookingId')->index('bookingId');
             $table->double('amount')->nullable();
             $table->text('details')->nullable();
-            $table->date('issueDate')->nullable()->default('CURRENT_DATE');
+            $table->date('issueDate')->useCurrent();
         });
     }
 

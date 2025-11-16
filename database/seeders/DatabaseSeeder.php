@@ -21,17 +21,21 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $this->call(TblAdminTableSeeder::class);
-        $this->call(TblBookingTableSeeder::class);
-        $this->call(TblChatTableSeeder::class);
-        $this->call(TblCheckoutTableSeeder::class);
-        $this->call(TblContactTableSeeder::class);
-        $this->call(TblHistoryTableSeeder::class);
-        $this->call(TblImagesTableSeeder::class);
-        $this->call(TblInvoiceTableSeeder::class);
-        $this->call(TblPromotionsTableSeeder::class);
-        $this->call(TblReviewsTableSeeder::class);
-        $this->call(TblTimelineTableSeeder::class);
-        $this->call(TblToursTableSeeder::class);
         $this->call(TblUsersTableSeeder::class);
+        $this->call(TblToursTableSeeder::class);
+        $this->call(TblPromotionsTableSeeder::class);
+        $this->call(TblImagesTableSeeder::class);
+        $this->call(TblTimelineTableSeeder::class);
+
+        // 2. Bảng phụ thuộc Tours + Users
+        $this->call(TblBookingTableSeeder::class);
+
+        // 3. Bảng phụ thuộc Booking
+        $this->call(TblCheckoutTableSeeder::class);
+        $this->call(TblInvoiceTableSeeder::class);
+        $this->call(TblHistoryTableSeeder::class);
+        $this->call(TblChatTableSeeder::class);
+        $this->call(TblReviewsTableSeeder::class);
+        $this->call(TblContactTableSeeder::class);
     }
 }
