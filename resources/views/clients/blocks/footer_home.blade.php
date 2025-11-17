@@ -14,7 +14,7 @@
                             chuyến đi đều
                             liền mạch và làm phong phú thêm những viên ngọc ẩn giấu</p>
                         <div class="social-style-one mt-15">
-                            <a href="https://www.facebook.com/dienne.dev"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="contact.html"><i class="fab fa-youtube"></i></a>
                             <a href="contact.html"><i class="fab fa-pinterest"></i></a>
                             <a href="contact.html"><i class="fab fa-twitter"></i></a>
@@ -97,12 +97,11 @@
                     data-aos-duration="1500" data-aos-offset="50">
                     <div class="footer-widget footer-contact">
                         <div class="footer-title">
-                            <h5>Liên hệ</h5>
                         </div>
                         <ul class="list-style-one">
-                            <li><i class="fal fa-map-marked-alt"></i> 470 Tran Dai Nghia, Ngu Hanh Son, Da Nang</li>
+                            <li><i class="fal fa-map-marked-alt"></i> Thanh Xuan Bac, Thanh Xuan, Ha Noi</li>
                             <li><i class="fal fa-envelope"></i> <a
-                                    href="mailto:minhdien.dev@gmail.com">minhdien.dev@gmail.com</a></li>
+                                    href="mailto:minhdien.dev@gmail.com">22010841@st.pheniaa-uni.edu.vn</a></li>
                             <li><i class="fal fa-clock"></i> Thứ 2 - Thứ 6, 08am - 05pm</li>
                             <li><i class="fal fa-phone-volume"></i> <a href="callto:+88012334588">+880 (123)
                                     345 88</a></li>

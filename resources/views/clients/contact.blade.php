@@ -39,7 +39,7 @@
                             <div class="content">
                                 <h5>Cần trợ giúp và hỗ trợ</h5>
                                 <div class="text"><i class="far fa-envelope"></i> <a
-                                        href="mailto:minhdien.dev@gmail.com">minhdien.dev@gmail.com</a></div>
+                                        href="mailto:minhdien.dev@gmail.com">22010841@st.phenikaa-uni.edu.vn</a></div>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                             data-aos-delay="50">
                             <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
                             <div class="content">
-                                <h5>Gia Lai</h5>
-                                <div class="text"><i class="fal fa-map-marker-alt"></i> Cửu An, An Khê, Gia Lai</div>
+                                <h5>Hà Nội</h5>
+                                <div class="text"><i class="fal fa-map-marker-alt"></i> Thanh Xuân</div>
                             </div>
                         </div>
                     </div>
@@ -69,10 +69,8 @@
                             data-aos-delay="100">
                             <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
                             <div class="content">
-                                <h5>Kí túc xá Việt Hàn</h5>
-                                <div class="text"><i class="fal fa-map-marker-alt"></i> 470 Trần Đại Nghĩa, Ngũ Hành
-                                    Sơn,
-                                    Thành phố Đà Nẵng</div>
+                                <h5>Thanh Xuân</h5>
+                                <div class="text"><i class="fal fa-map-marker-alt"></i> Thanh Xuân Bắc, Thanh Xuân,thành phố Hà Nội</div>
                             </div>
                         </div>
                     </div>
@@ -167,7 +165,7 @@
 <!-- Contact Map Start -->
 <div class="contact-map">
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61349.64701146602!2d108.16542067386848!3d16.047164798501537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0xfc14e3a044436487!2sDa%20Nang%2C%20H%E1%BA%A3i%20Ch%C3%A2u%20District%2C%20Da%20Nang%2C%20Vietnam!5e0!3m2!1sen!2s!4v1729087157388!5m2!1sen!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7450.081334303412!2d105.79926525!3d20.9910069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acb9499e7545%3A0x703c923b7ac373be!2zVGhhbmggWHXDom4gQuG6r2MsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1760866716644!5m2!1svi!2s"
         style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

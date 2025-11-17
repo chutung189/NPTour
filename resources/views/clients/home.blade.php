@@ -25,7 +25,7 @@
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> {{ number_format($tour->rating, 1) }}</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="{{ asset('admin/assets/images/gallery-tours/' . $tour->images[0] . '') }}"
+                            <img src="{{ asset('admin/assets/images/gallery-tours/' . $tour->images->first() . '') }}"
                                 alt="Destination">
                         </div>
                         <div class="content">
