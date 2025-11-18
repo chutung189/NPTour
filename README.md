@@ -1,45 +1,45 @@
 # NPTour - Tour Booking Website with Personalized Recommendations
 
 ## 🌍 Overview
-**NPTour** is a user-friendly tour booking platform designed to make travel planning effortless. With an integrated personalized recommender system, it helps users find the perfect tours based on their preferences and activities. The platform also includes robust administrative tools for managing tours, users, and analytics.
+**NPTour** là một nền tảng đặt tour thân thiện với người dùng, được thiết kế để giúp việc lên kế hoạch du lịch trở nên dễ dàng. Với hệ thống đề xuất cá nhân hóa tích hợp, platform giúp người dùng tìm các tour phù hợp dựa trên sở thích và hoạt động của họ. Nền tảng cũng bao gồm các công cụ quản trị mạnh mẽ để quản lý tour, người dùng và phân tích.
 
 ---
 
 ## ✨ Features
 
 ### 🔹 User Features:
-- **Search Tours**: Filter tours by keywords, destination, duration, and more.
-- **Tour Booking**: Simplified booking process with support for adults and children.
-- **Account Management**:
-  - View and manage booking history
-  - Change password or delete account
-- **Secure Login**:
-  - Email activation for secure account registration
+- **Tìm Tour**: Lọc tour theo từ khóa, điểm đến, thời lượng và nhiều tiêu chí khác.
+- **Đặt Tour**: Quy trình đặt tour được đơn giản hóa, hỗ trợ cả người lớn và trẻ em.
+- **Quản Lý Tài Khoản**:
+  - Xem và quản lý lịch sử đặt tour
+  - Thay đổi mật khẩu hoặc xóa tài khoản
+- **Đăng Nhập An Toàn**:
+  - Kích hoạt qua email để đảm bảo đăng ký tài khoản an toàn
 
 ## 🔧 Technologies Used
 
 ### Frontend:
 - HTML, CSS, JavaScript, Bootstrap
-- Datetimepicker for date selection (date-only)
+- Datetimepicker để chọn ngày (chỉ chọn ngày)
 
 ### Backend:
-- PHP with Laravel Framework
-- MySQL for database management
-- Secure authentication with email activation
+- PHP với Laravel Framework
+- MySQL cho quản lý cơ sở dữ liệu
+- Xác thực an toàn với kích hoạt qua email
 
 ### Other Tools:
-- jQuery for interactive elements
-- Blade templates for dynamic content rendering
+- jQuery cho các thành phần tương tác
+- Blade templates để hiển thị nội dung động
 
 ---
 
 ## 🚀 Installation & Setup
 
 ### Prerequisites:
-- PHP 8.x or higher
+- PHP 8.x hoặc cao hơn
 - Composer
 - MySQL
-- Node.js and npm (for frontend asset compilation)
+- Node.js và npm (dùng để biên dịch tài sản frontend)
 
 ### Steps to Install:
 
@@ -64,7 +64,7 @@
    ```bash
    cp .env.example .env
    ```
-   Update `.env` with your database credentials and mail server configuration.
+   Cập nhật file `.env` với thông tin kết nối cơ sở dữ liệu và cấu hình máy chủ mail của bạn.
 
 5. **Run Database Migrations and Seeders**:
    ```bash
@@ -75,7 +75,7 @@
    ```bash
    php artisan serve
    ```
-   Open your browser and navigate to [http://localhost:8000](http://localhost:8000).
+   Mở trình duyệt và truy cập `http://localhost:8000`.
 
 ---
 
@@ -88,7 +88,7 @@ booktour/
 ├── public/            # Public assets (CSS, JS, Images)
 ├── resources/         # Views and Blade templates
 ├── routes/            # Application routes
-├── storage/           # File storage
+├── storage/            # File storage
 └── tests/             # Automated tests
 ```
 
@@ -97,20 +97,20 @@ booktour/
 ## 📊 Database Tables
 
 ### Key Tables:
-1. **User**: Stores user details
-2. **Tour**: Stores tour information
-3. **Booking**: Manages user bookings
-4. **Review**: Tracks tour reviews
-5. **History**: Logs user activity
-6. **Invoice**: Handles payment records
+1. **User**: Lưu trữ thông tin người dùng
+2. **Tour**: Lưu trữ thông tin tour
+3. **Booking**: Quản lý các đặt chỗ của người dùng
+4. **Review**: Ghi nhận đánh giá tour
+5. **History**: Lưu nhật ký hoạt động người dùng
+6. **Invoice**: Quản lý thông tin thanh toán
 
 ---
 
 ## 🔮 Future Enhancements
-- Integration of a payment gateway (e.g., Stripe, PayPal).
-- Advanced machine learning for personalized recommendations.
-- Real-time chat support using WebSockets.
-- Multi-language support for a global audience.
+- Tích hợp cổng thanh toán (ví dụ: Stripe, PayPal).
+- Áp dụng học máy nâng cao cho gợi ý cá nhân hóa.
+- Hỗ trợ chat thời gian thực bằng WebSockets.
+- Hỗ trợ đa ngôn ngữ cho người dùng toàn cầu.
 
 ---
 =======
