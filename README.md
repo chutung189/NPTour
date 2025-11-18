@@ -1,4 +1,4 @@
-# NPTour - Tour Booking Website with Personalized Recommendations
+# NPTour - Tour Booking Website
 
 ## 🌍 Overview
 **NPTour** là một nền tảng đặt tour thân thiện với người dùng, được thiết kế để giúp việc lên kế hoạch du lịch trở nên dễ dàng. Với hệ thống đề xuất cá nhân hóa tích hợp, platform giúp người dùng tìm các tour phù hợp dựa trên sở thích và hoạt động của họ. Nền tảng cũng bao gồm các công cụ quản trị mạnh mẽ để quản lý tour, người dùng và phân tích.
